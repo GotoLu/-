@@ -9,10 +9,32 @@
 			margin: 0 auto;
 			/*border: 1px solid #aaa;*/
 		}
+
+		#radioColor{
+			width: 600px;
+			margin: 10px auto;
+			text-align: center;
+		}
+
+		#btn1{
+			display: block;
+			margin: 10px auto;
+		}
+
 	</style>
 </head>
 <body>
 	<canvas id="can"></canvas>
+	<div id="radioColor">
+		<label><input type="radio" name="color" value="black">黑色</label>
+		<label><input type="radio" name="color" value="blue">蓝色</label>
+		<label><input type="radio" name="color" value="pink">粉色</label>
+		<label><input type="radio" name="color" value="red">红色</label>
+		<label><input type="radio" name="color" value="yellow">黄色</label>
+	</div>
+
+
+	<button id="btn1">清除</button>
 
 	<script src="js/handwriting.js"></script>
 </body>
