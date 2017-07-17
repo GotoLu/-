@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="Viewport"
+		content="width = device-width,
+				 height = device-height,
+				 initial-scale = 1.0,
+				 user-scalable = no">
 	<title>HandWriting</title>
+	<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 	<style>
 		#can{
 			display: block;
@@ -11,7 +17,6 @@
 		}
 
 		#radioColor{
-			width: 600px;
 			margin: 10px auto;
 			text-align: center;
 		}
@@ -26,7 +31,7 @@
 <body>
 	<canvas id="can"></canvas>
 	<div id="radioColor">
-		<label><input type="radio" name="color" value="black">黑色</label>
+		<label><input type="radio" name="color" value="black" checked>黑色</label>
 		<label><input type="radio" name="color" value="blue">蓝色</label>
 		<label><input type="radio" name="color" value="pink">粉色</label>
 		<label><input type="radio" name="color" value="red">红色</label>
